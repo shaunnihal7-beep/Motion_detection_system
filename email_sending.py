@@ -4,7 +4,7 @@ import mimetypes
 #this is an email class will create an email obj instanse
 from email.message import EmailMessage
 SENDER = "claudenogga1@gmail.com"
-password = "kghjpgmhosqamgbx"
+password = "private"
 def send_email(image_path):
     #creating an obj (this obj is the email contents)
     email_message = EmailMessage()
